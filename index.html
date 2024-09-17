@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <title>Lab3</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+    <div class="container text-white">
+      <a class="navbar-brand left" href="#">Navbar</a>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trang chu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lien He</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dich Vu</a>
+          </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+          <input class="form-control me-sm-2" type="text" placeholder="Search" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide">
+      </li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Third slide"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img src="imagetour/3.jpg" class="w-100 d-block" alt="First slide" />
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagetour/2.jpg" class="w-100 d-block" alt="Second slide" />
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="imagetour/4.jpg" class="w-100 d-block" alt="Third slide" />
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="bg-dark">
+    <h1>Lich Dien</h1>
+    <p>BTS Map Of The Soul Tour</p>
+    <p>Cac ban nho dang ky lich nhe</p>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button justify-content-between" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            September
+            <span class="badge rounded-pill float-end" style="color: black">3</span>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/hanquoc.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Han Quoc</h4>
+                    <p class="card-text">Ngay 11-9-2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/nhatban.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Nhat Ban</h4>
+                    <p class="card-text">Ngay 12-9-2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/saigon.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Sai Gon</h4>
+                    <p class="card-text">Ngay 13-9-2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button justify-content-between" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <span>Octember</span>
+            <span class="badge rounded-pill text-bg-black ms-auto" style="color: black">3</span>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/hanquoc.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Han Quoc</h4>
+                    <p class="card-text">Ngay 11-9-2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/nhatban.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Nhat Ban</h4>
+                    <p class="card-text">Ngay 12-9-2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/saigon.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Sai Gon</h4>
+                    <p class="card-text">Ngay 13-9-2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button justify-content-between" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            November
+            <span class="badge rounded-pill text-bg-primary float-end" style="color: black">3</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/hanquoc.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Han Quoc</h4>
+                    <p class="card-text">Ngay 11-9-2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/nhatban.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Nhat Ban</h4>
+                    <p class="card-text">Ngay 12-9-2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img class="card-img-top" src="imagetour/saigon.jpg" alt="Title" />
+                  <div class="card-body">
+                    <h4 class="card-title">Sai Gon</h4>
+                    <p class="card-text">Ngay 13-9-2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

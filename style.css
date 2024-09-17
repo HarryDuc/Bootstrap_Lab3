@@ -1,0 +1,16 @@
+h1, p {
+  text-align: center;
+  color: white;
+}
+a {
+  color: white !important;
+}
+.row p {
+  color: black;
+}
+h4 {
+  text-align: center;
+}
+.accordion-button::after {
+  display: none !important;
+}
